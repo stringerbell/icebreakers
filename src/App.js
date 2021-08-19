@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import useIceBreakers from "./Icebreakers";
+
+function Icebreaker({category, entries}) {
+    return <div>
+        <h1>{category} icebreakers</h1>
+        <ul className={'grid-cols-2 grid grid-gap-2'}>
+            {entries.map((({text}, i) => {
+                return <div key={i} className={'p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4'}>
+                    <li className={"text-gray-500"}>{text}</li>
+                </div>
+            }))}
+        </ul>
+    </div>;
+}
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const icebreakers = useIceBreakers()
+    return (
+        <div className="App">
+            {
+                icebreakers.map(({category, entries}) => {
+                    return <Icebreaker category={category} entries={entries} key={category}/>
+                })
+            }
+        </div>
+    );
 }
 
 export default App;
