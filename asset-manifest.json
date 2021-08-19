@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/icebreakers/static/css/main.fd202a53.chunk.css",
+    "main.js": "/icebreakers/static/js/main.98277b98.chunk.js",
+    "main.js.map": "/icebreakers/static/js/main.98277b98.chunk.js.map",
+    "runtime-main.js": "/icebreakers/static/js/runtime-main.a6097b16.js",
+    "runtime-main.js.map": "/icebreakers/static/js/runtime-main.a6097b16.js.map",
+    "static/js/2.d0eb047a.chunk.js": "/icebreakers/static/js/2.d0eb047a.chunk.js",
+    "static/js/2.d0eb047a.chunk.js.map": "/icebreakers/static/js/2.d0eb047a.chunk.js.map",
+    "static/js/3.a6e4d959.chunk.js": "/icebreakers/static/js/3.a6e4d959.chunk.js",
+    "static/js/3.a6e4d959.chunk.js.map": "/icebreakers/static/js/3.a6e4d959.chunk.js.map",
+    "index.html": "/icebreakers/index.html",
+    "static/css/main.fd202a53.chunk.css.map": "/icebreakers/static/css/main.fd202a53.chunk.css.map",
+    "static/js/2.d0eb047a.chunk.js.LICENSE.txt": "/icebreakers/static/js/2.d0eb047a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6097b16.js",
+    "static/js/2.d0eb047a.chunk.js",
+    "static/css/main.fd202a53.chunk.css",
+    "static/js/main.98277b98.chunk.js"
+  ]
+}
