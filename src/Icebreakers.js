@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 
 export default function useIceBreakers() {
     const [index, setIndex] = useState(0)
@@ -33,7 +33,7 @@ export default function useIceBreakers() {
                     {text: "Would you rather make a gagging noise for 30 seconds or do another icebreaker?"},
                     {text: "Do you think Jesus loves a hard worker or a good listener more?"},
                     {text: "If you could catapult one unrepentant sinner into the sun who would it be and why?"},
-                    {text: "If the lord told you to vote for a specific orange president would you obey? (edited)"},
+                    {text: "If the lord told you to vote for a specific orange president would you obey?"},
                     {text: "Name 3 ways you can show Christ’s love to your neighbors today"},
                     {text: "When is the last time you turned the other cheek?"},
                     {text: "How can you thoughtfully submit to your leaders today?"},
@@ -47,8 +47,26 @@ export default function useIceBreakers() {
                     {text: "What’s your favorite curse word replacements/alternatives?"},
                     {text: "What people group do you feel Christians have alienated the most?"},
                     {text: "What Bible verse best describes your mood today?"},
-                ]
+                ],
             },
+            {
+                category: "shame",
+                entries: [
+                    {text: "Tell us three embarrassing things about yourself."},
+                    {text: "What's your least favorite attribute?"},
+                    {text: "What are you most ashamed of?"},
+                    {text: "How often do you find yourself repulsed by yourself?"},
+                    {text: "What's the worst rumor you've told?"},
+                    {text: "What's the worst rumor that's been told about you?"},
+                    {text: "Why are you awful?"},
+                    {text: "What's the most shameful thing you've done?"},
+                    {text: "Do you wish you were less ashamed?"},
+                    {text: "How could you? (How dare you?)"},
+                    {text: "Tell us two truths and a lie. All of them must be embarrassing."},
+                    {text: "What's the earliest you remember feeling ashamed?"},
+                    {text: "When you're in a group setting asking people to reveal shameful things about themselves, are you ashamed of yourself? (so meta)"},
+                ]
+            }
         ]
     }
     const [ib, setIB] = useState(icebreakers())
@@ -62,19 +80,18 @@ export default function useIceBreakers() {
         }
         return array
     }
-
-    useEffect(() => {
-        ib[0].entries = shuffle(ib[0].entries);
-        setIB(ib)
-    }, [])
-
-
     return {
-        next: () => {
+        next: (category) => {
             setIndex(index + 1)
-            const entries = ib[0].entries
+            const entries = ib.filter(i => i.category === category)[0].entries
             return entries[index % entries.length]
         },
+        shuffle: () => {
+            setIB(ib.map((i => {
+                i.entries = shuffle(i.entries)
+                return i
+            })))
+        }
     }
 };
 
