@@ -19,7 +19,7 @@ function App() {
     }
 
     return (
-        <div className="App">
+        <div className="App p-4">
             <div className={'justify-center grid align-middle text-center'}>
                 <div className={'my-12 max-w-xl'}>
                     <p className={`text-5xl text-gray-200 transition duration-700 ease-in-out ${hidden && 'text-opacity-0'}`}>{ib.text}</p>
