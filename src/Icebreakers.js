@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 export default function useIceBreakers() {
     const [index, setIndex] = useState(0)
@@ -50,13 +50,29 @@ export default function useIceBreakers() {
                 ]
             },
         ]
-
     }
+    const [ib, setIB] = useState(icebreakers())
+    /* Randomize array in-place using Durstenfeld shuffle algorithm */
+    const shuffle = (array) => {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+        return array
+    }
+
+    useEffect(() => {
+        ib[0].entries = shuffle(ib[0].entries);
+        setIB(ib)
+    }, [])
+
 
     return {
         next: () => {
             setIndex(index + 1)
-            const entries = icebreakers()[0].entries
+            const entries = ib[0].entries
             return entries[index % entries.length]
         },
     }
