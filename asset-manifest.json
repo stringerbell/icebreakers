@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/icebreakers/static/css/main.75534527.chunk.css",
-    "main.js": "/icebreakers/static/js/main.f04c11cd.chunk.js",
-    "main.js.map": "/icebreakers/static/js/main.f04c11cd.chunk.js.map",
+    "main.css": "/icebreakers/static/css/main.6960684c.chunk.css",
+    "main.js": "/icebreakers/static/js/main.74dd105d.chunk.js",
+    "main.js.map": "/icebreakers/static/js/main.74dd105d.chunk.js.map",
     "runtime-main.js": "/icebreakers/static/js/runtime-main.ea297689.js",
     "runtime-main.js.map": "/icebreakers/static/js/runtime-main.ea297689.js.map",
-    "static/js/2.61dd7eaa.chunk.js": "/icebreakers/static/js/2.61dd7eaa.chunk.js",
-    "static/js/2.61dd7eaa.chunk.js.map": "/icebreakers/static/js/2.61dd7eaa.chunk.js.map",
+    "static/js/2.ab7a6a1b.chunk.js": "/icebreakers/static/js/2.ab7a6a1b.chunk.js",
+    "static/js/2.ab7a6a1b.chunk.js.map": "/icebreakers/static/js/2.ab7a6a1b.chunk.js.map",
     "static/js/3.8f496520.chunk.js": "/icebreakers/static/js/3.8f496520.chunk.js",
     "static/js/3.8f496520.chunk.js.map": "/icebreakers/static/js/3.8f496520.chunk.js.map",
     "index.html": "/icebreakers/index.html",
-    "static/css/main.75534527.chunk.css.map": "/icebreakers/static/css/main.75534527.chunk.css.map",
-    "static/js/2.61dd7eaa.chunk.js.LICENSE.txt": "/icebreakers/static/js/2.61dd7eaa.chunk.js.LICENSE.txt",
+    "static/css/main.6960684c.chunk.css.map": "/icebreakers/static/css/main.6960684c.chunk.css.map",
+    "static/js/2.ab7a6a1b.chunk.js.LICENSE.txt": "/icebreakers/static/js/2.ab7a6a1b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/icebreakers/static/media/diego-ph-5LOhydOtTKU-unsplash.e0972ea6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ea297689.js",
-    "static/js/2.61dd7eaa.chunk.js",
-    "static/css/main.75534527.chunk.css",
-    "static/js/main.f04c11cd.chunk.js"
+    "static/js/2.ab7a6a1b.chunk.js",
+    "static/css/main.6960684c.chunk.css",
+    "static/js/main.74dd105d.chunk.js"
   ]
 }
