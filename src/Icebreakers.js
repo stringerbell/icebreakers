@@ -66,7 +66,33 @@ export default function useIceBreakers() {
                     {text: "What's the earliest you remember feeling ashamed?"},
                     {text: "When you're in a group setting asking people to reveal shameful things about themselves, are you ashamed of yourself? (so meta)"},
                 ]
-            }
+            },
+            {
+                category: "celebrities",
+                entries: [
+                    {text: "If you could have lunch with any celebrity, who would it be?"},
+                    {text: "If you could have dinner with any celebrity, who would it be?"},
+                    {text: "If you could have breakfast with any celebrity, who would it be?"},
+                    {text: "If you could almost have lunch with any celebrity, who would it be? Why would it be Jeff Goldblum?"},
+                    {text: "How many celebrities have you met?"},
+                    {text: "How many celebrities have you never met?"},
+                    {text: "How badly do you wish you were famous?"},
+                    {text: "What is the best celebrity?"},
+                    {text: "Who is the hottest dude celebrity?"},
+                    {text: "Who is the ugliest dude celebrity?"},
+                    {text: "Which celebrity has the biggest muscles?"},
+                    {text: "How many celebrities do you want to make out with?"},
+                    {text: "Who would be the best celebrity to tickle?"},
+                    {text: "Why can't you be a celebrity?"},
+                    {text: "If you were casting Ocean's 11, who would be in it?"},
+                    {text: "Is Christian Bale actually a Christian?"},
+                    {text: "Which celebrity is the tallest?"},
+                    {text: "Which celebrity has the nicest arms?"},
+                    {text: "Which celebrity has the kindest eyes?"},
+                    {text: "Which celebrity has the strongest quads?"},
+                    {text: "Which celebrity has the gentlest touch?"},
+                ]
+            },
         ]
     }
     const [ib, setIB] = useState(icebreakers())

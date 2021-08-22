@@ -31,6 +31,7 @@ function App() {
                     className={'bg-transparent text-gray-200 text-4xl'}>
                 <option value="christian">Christian</option>
                 <option value="shame">Shame</option>
+                <option value="celebrities">Celebrities</option>
             </select>
             <div className={'justify-center grid align-middle text-center'}>
                 <div className={'my-12 max-w-xl'}>
