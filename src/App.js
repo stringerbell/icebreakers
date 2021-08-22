@@ -28,7 +28,7 @@ function App() {
     return (
         <div className="App p-4">
             <select id="categories" value={category} onChange={({target}) => onChange(target)}
-                    className={'bg-transparent text-gray-200 text-4xl'}>
+                    className={'bg-transparent text-gray-200 text-4xl underline'}>
                 <option value="christian">Christian</option>
                 <option value="shame">Shame</option>
                 <option value="celebrities">Celebrities</option>
