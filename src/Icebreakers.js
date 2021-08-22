@@ -91,6 +91,7 @@ export default function useIceBreakers() {
                     {text: "Which celebrity has the kindest eyes?"},
                     {text: "Which celebrity has the strongest quads?"},
                     {text: "Which celebrity has the gentlest touch?"},
+                    {text: "What celebrity would you want to pray with?"},
                 ]
             },
         ]
