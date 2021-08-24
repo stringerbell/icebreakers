@@ -99,7 +99,7 @@ export default function useIceBreakers() {
                 entries: [{text: "NAME A WOMAN!!!!", citation: "from <a href=\"https://youtu.be/bzDlS6JPUtE?t=22\">https://youtu.be/bzDlS6JPUtE?t=22</a>"}]
             },
             {
-                category: 'Jeffrey Bezos',
+                category: 'JEFFREY-BEZOS',
                 entries: [
                     {text: "How many polar bears do you thing Jeff Bezos personally kills every day?"},
                     {text: "What do you think is Jeffrey Bezos favorite part of human flesh?"},
