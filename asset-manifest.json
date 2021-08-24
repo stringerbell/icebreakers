@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/icebreakers/static/css/main.61ce9d85.chunk.css",
-    "main.js": "/icebreakers/static/js/main.6a7aea10.chunk.js",
-    "main.js.map": "/icebreakers/static/js/main.6a7aea10.chunk.js.map",
+    "main.css": "/icebreakers/static/css/main.9838cad2.chunk.css",
+    "main.js": "/icebreakers/static/js/main.42705b9a.chunk.js",
+    "main.js.map": "/icebreakers/static/js/main.42705b9a.chunk.js.map",
     "runtime-main.js": "/icebreakers/static/js/runtime-main.3328c6b1.js",
     "runtime-main.js.map": "/icebreakers/static/js/runtime-main.3328c6b1.js.map",
     "static/js/2.e6599142.chunk.js": "/icebreakers/static/js/2.e6599142.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.71e52af6.chunk.js": "/icebreakers/static/js/3.71e52af6.chunk.js",
     "static/js/3.71e52af6.chunk.js.map": "/icebreakers/static/js/3.71e52af6.chunk.js.map",
     "index.html": "/icebreakers/index.html",
-    "static/css/main.61ce9d85.chunk.css.map": "/icebreakers/static/css/main.61ce9d85.chunk.css.map",
+    "static/css/main.9838cad2.chunk.css.map": "/icebreakers/static/css/main.9838cad2.chunk.css.map",
     "static/js/2.e6599142.chunk.js.LICENSE.txt": "/icebreakers/static/js/2.e6599142.chunk.js.LICENSE.txt",
     "static/media/App.css": "/icebreakers/static/media/diego-ph-5LOhydOtTKU-unsplash.25224962.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3328c6b1.js",
     "static/js/2.e6599142.chunk.js",
-    "static/css/main.61ce9d85.chunk.css",
-    "static/js/main.6a7aea10.chunk.js"
+    "static/css/main.9838cad2.chunk.css",
+    "static/js/main.42705b9a.chunk.js"
   ]
 }
