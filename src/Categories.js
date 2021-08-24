@@ -39,7 +39,9 @@ export default function Categories() {
                 <option value="women">Women</option>
                 <option value="JEFFREY-BEZOS">Jeffrey Bezos</option>
             </select>
-            {embed && <div className={'justify-center grid align-middle text-center'} dangerouslySetInnerHTML={{__html: embed}}/>}
+            {embed && (<div className="videoWrapper">
+                <div className={'justify-center grid align-middle text-center min-h-xl'} dangerouslySetInnerHTML={{__html: embed}}/>}
+            </div>)}
             <div className={'justify-center grid align-middle text-center'}>
                 <div className={'my-12 max-w-xl'}>
                     <p className={`text-5xl text-gray-200 transition duration-700 ease-in-out ${hidden && 'text-opacity-0'}`}>{ib.text}</p>
