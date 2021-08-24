@@ -100,6 +100,7 @@ export default function useIceBreakers() {
             },
             {
                 category: 'JEFFREY-BEZOS',
+                embed: '<iframe width="672" height="378" src="https://www.youtube.com/embed/lI5w2QwdYik?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
                 entries: [
                     {text: "How many polar bears do you thing Jeff Bezos personally kills every day?"},
                     {text: "What do you think is Jeffrey Bezos favorite part of human flesh?"},
@@ -142,6 +143,9 @@ export default function useIceBreakers() {
                 i.entries = shuffle(i.entries)
                 return i
             })))
+        },
+        parent: (category) => {
+            return ib.filter(i => i.category === category)[0]
         }
     }
 };

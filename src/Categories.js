@@ -28,6 +28,7 @@ export default function Categories() {
         icebreakers.shuffle()
         history.push(`/${target.value}`)
     }
+    const embed = icebreakers.parent(category).embed
     return (
         <div className="App p-4">
             <select id="categories" value={category} onChange={({target}) => onChange(target)}
@@ -38,6 +39,7 @@ export default function Categories() {
                 <option value="women">Women</option>
                 <option value="JEFFREY-BEZOS">Jeffrey Bezos</option>
             </select>
+            {embed && <div className={'justify-center grid align-middle text-center'} dangerouslySetInnerHTML={{__html: embed}}/>}
             <div className={'justify-center grid align-middle text-center'}>
                 <div className={'my-12 max-w-xl'}>
                     <p className={`text-5xl text-gray-200 transition duration-700 ease-in-out ${hidden && 'text-opacity-0'}`}>{ib.text}</p>
