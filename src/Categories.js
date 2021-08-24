@@ -36,6 +36,7 @@ export default function Categories() {
                 <option value="shame">Shame</option>
                 <option value="celebrities">Celebrities</option>
                 <option value="women">Women</option>
+                <option value="Jeffrey Bezos">Jeffrey Bezos</option>
             </select>
             <div className={'justify-center grid align-middle text-center'}>
                 <div className={'my-12 max-w-xl'}>

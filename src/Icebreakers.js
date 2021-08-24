@@ -97,6 +97,26 @@ export default function useIceBreakers() {
             {
                 category: "women",
                 entries: [{text: "NAME A WOMAN!!!!", citation: "from <a href=\"https://youtu.be/bzDlS6JPUtE?t=22\">https://youtu.be/bzDlS6JPUtE?t=22</a>"}]
+            },
+            {
+                category: 'Jeffrey Bezos',
+                entries: [
+                    {text: "How many polar bears do you thing Jeff Bezos personally kills every day?"},
+                    {text: "What do you think is Jeffrey Bezos favorite part of human flesh?"},
+                    {text: "How high can Jeffrey Bezos jump?"},
+                    {text: "What is Jeffrey Bezos worst fear?"},
+                    {text: "If you could travel back in time and swap baby Jeff Bezos for baby hitler would you do it?"},
+                    {text: "Who is Jeffrey Bezos jealous of?"},
+                    {text: "What keeps Jeff Bezos awake at three in the morning?"},
+                    {text: "Have you ever made so much money that the suffering you cause seems so insignificant by comparison and you slowly lose your grip on reality and your conscience and you can’t relate to other human beings anymore?"},
+                    {text: "What would you do if you lost 10 billion dollars in a divorce but it didn’t even put a dent in your wealth?"},
+                    {text: "What kind of penis is the best shape for a spaceship?"},
+                    {text: "Do you think you can pull off a cowboy hat?"},
+                    {text: "If you could buy a space-penis or pay your taxes what would you do and why?"},
+                    {text: "If you could buy a space-penis or pay your workers a living wage what planet would you visit first?"},
+                    {text: "What does Jeff Bezos keep in his pockets?"},
+                    {text: "Why does Jeffrey Bezos insist on licking every Amazon package before it leaves the factory? Discuss."},
+                ]
             }
         ]
     }
@@ -125,15 +145,3 @@ export default function useIceBreakers() {
         }
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
