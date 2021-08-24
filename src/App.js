@@ -32,11 +32,13 @@ function App() {
                 <option value="christian">Christian</option>
                 <option value="shame">Shame</option>
                 <option value="celebrities">Celebrities</option>
+                <option value="women">Women</option>
             </select>
             <div className={'justify-center grid align-middle text-center'}>
                 <div className={'my-12 max-w-xl'}>
                     <p className={`text-5xl text-gray-200 transition duration-700 ease-in-out ${hidden && 'text-opacity-0'}`}>{ib.text}</p>
                 </div>
+                {ib.citation && <p className={'text-gray-200 transition duration-700 ease-in-out my-12'} dangerouslySetInnerHTML={{__html: ib.citation}}/>}
                 <button onClick={onClick}
                         className={'px-6 bg-red-500 h-14 rounded-2xl text-4xl text-gray-200 shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-50'}>Next
                 </button>

@@ -94,6 +94,10 @@ export default function useIceBreakers() {
                     {text: "What celebrity would you want to pray with?"},
                 ]
             },
+            {
+                category: "women",
+                entries: [{text: "NAME A WOMAN!!!!", citation: "from <a href=\"https://youtu.be/bzDlS6JPUtE?t=22\">https://youtu.be/bzDlS6JPUtE?t=22</a>"}]
+            }
         ]
     }
     const [ib, setIB] = useState(icebreakers())
