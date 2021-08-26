@@ -146,6 +146,9 @@ export default function useIceBreakers() {
         },
         parent: (category) => {
             return ib.filter(i => i.category === category)[0]
+        },
+        categories: () => {
+            return ib.map(i => i.category)
         }
     }
 };

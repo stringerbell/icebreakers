@@ -29,15 +29,14 @@ export default function Categories() {
         history.push(`/${target.value}`)
     }
     const embed = icebreakers.parent(category).embed
+    const categories = icebreakers.categories()
     return (
         <div className="App p-4">
             <select id="categories" value={category} onChange={({target}) => onChange(target)}
-                    className={'bg-transparent text-gray-200 text-4xl underline'}>
-                <option value="christian">Christian</option>
-                <option value="shame">Shame</option>
-                <option value="celebrities">Celebrities</option>
-                <option value="women">Women</option>
-                <option value="JEFFREY-BEZOS">Jeffrey Bezos</option>
+                    className={'bg-transparent text-gray-200 text-4xl underline capitalize'}>
+                {categories.map((c) => {
+                    return <option value={c} key={c}>{c.replaceAll("-", " ")}</option>
+                })}
             </select>
             {embed && (<div className="videoWrapper">
                 <div className={'justify-center grid align-middle text-center min-h-xl'} dangerouslySetInnerHTML={{__html: embed}}/>}
