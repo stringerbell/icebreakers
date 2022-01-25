@@ -151,6 +151,9 @@ export default function useIceBreakers() {
             text:
               'If you could almost have lunch with any celebrity, who would it be? Why would it be Jeff Goldblum?',
           },
+          {
+            text: "What the closest you've ever been in your life to having lunch with Jeff Goldblum?",
+          },
           { text: 'How many celebrities have you met?' },
           { text: 'How many celebrities have you never met?' },
           { text: 'How badly do you wish you were famous?' },
