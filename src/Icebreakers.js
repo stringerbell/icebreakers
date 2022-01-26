@@ -339,6 +339,10 @@ export default function useIceBreakers() {
           },
           { text: "Are you lonely?" },
           { text: "Do you ever leave unfinihs" },
+          {
+            text: "What is something you hope your boss never finds out about?",
+          },
+          { text: "What is a secret you know about a coworker?" },
         ],
       },
     ];
