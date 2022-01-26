@@ -229,6 +229,26 @@ export default function useIceBreakers() {
             text:
               "Why does Jeffrey Bezos insist on licking every Amazon package before it leaves the factory? Discuss.",
           },
+          { text: "Do you think poor people deserve to live." },
+          {
+            text:
+              "How happy are you to have help funded Jeff's space dick? (scale of 10-10)",
+          },
+          { text: "Thoughts on next space ride?" },
+          {
+            text: "Is Jeff a real astronaut?",
+            citation:
+              "Acceptable answers: A. Absolutely\n" +
+              "B. Definitely\n" +
+              "C. The best there ever was",
+          },
+          {
+            text: "Draw a picture of Jeff Bezos b̶e̶i̶n̶g̶ ̶b̶e̶t̶t̶e̶r̶ ̶t̶h̶a̶n̶ ̶y̶o̶u̶ in space",
+          },
+          {
+            text:
+              "If Jeff Bezos were you for a day, how would he fix your shitty little life?",
+          },
         ],
       },
       {
@@ -264,7 +284,7 @@ export default function useIceBreakers() {
         ],
       },
       {
-        category: "Soul Yogurt",
+        category: "Soul-Yogurt",
         entries: [
           { text: "What color was your hair when you were a child?" },
           { text: "How many fingers am I holding up behind my back?" },
@@ -282,12 +302,12 @@ export default function useIceBreakers() {
         ],
       },
       {
-        category: "Team Building (at/during Work)",
+        category: "Team-Building-(at/during-Work)",
         entries: [
           { text: "Be honest, how often do you work from bed?" },
           { text: "Do you have a dedicated office space at home?" },
           { text: "Is your workspace free from distractions?" },
-          { text: "How often do you goof around while on the clock at work" },
+          { text: "How often do you goof around while on the clock at work." },
           {
             text:
               "Do you day drink? (Looking at you, _______) <- (make them feel ashamed, but don't read this part out loud to the group.)",
@@ -309,6 +329,16 @@ export default function useIceBreakers() {
             text: "If you were good at your job, what would you attempt to do?",
           },
           { text: "What would it take for you to actually do your job?" },
+          { text: "Who would be your favorite kickball partner?" },
+          { text: "Who is the oldest person on your team and why?" },
+          { text: "Who is the smartest person on your team?" },
+          { text: "Who is your favorite boss?" },
+          {
+            text:
+              "How do you stay productive and motivated working virtually? Like. The pandemic, right? How do you continually have enough resources to actually give any shits about the bullshit that we work on here? Like who actually gives any shits? At all. Like AT. ALL.",
+          },
+          { text: "Are you lonely?" },
+          { text: "Do you ever leave unfinihs" },
         ],
       },
     ];
