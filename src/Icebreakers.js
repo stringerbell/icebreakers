@@ -344,6 +344,7 @@ export default function useIceBreakers() {
             text: "What is something you hope your boss never finds out about?",
           },
           { text: "What is a secret you know about a coworker?" },
+          { text: "Why isn't your camera on?" },
         ],
       },
     ];
